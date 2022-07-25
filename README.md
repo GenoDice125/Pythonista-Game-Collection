@@ -11,4 +11,5 @@ Here are collections of mini games I created by Pythonista<br>
 #### Game List:<br>
 * Shooting Game.py -> A universe shooting game<br>
 <br>
-## Have Fun :]<br>
+** 玩的开心 (￣▽￣)<br>
+** Have Fun :]<br>
