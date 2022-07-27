@@ -1,4 +1,4 @@
-# Pythonista-Game-Collection
+# Pythonista-Mini-Games小游戏合集
 ### 中文版:<br>
 **注: 此Python文件需要编译器“Pythonista”运行<br>**
 这是一系列使用Python语言编写的小游戏<br>
