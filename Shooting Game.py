@@ -122,6 +122,7 @@ class Game(Scene):
 						item.remove_from_parent()					
 		self.items = []
 		self.lasers = []
+		self.lasersNum = 1
 		self.lasersStop = False
 		self.super = False
 		self.player.texture = normal_texture
