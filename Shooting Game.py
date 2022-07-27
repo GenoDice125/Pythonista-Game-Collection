@@ -43,8 +43,9 @@ class Enemy (SpriteNode):
 		self.destroyed = False
 	
 class enemyLaser(SpriteNode):
-		def __init__(self, **kwargs):
-			SpriteNode.__init__(self, laser_texture2, **kwargs)
+	def __init__(self, **kwargs):
+		img = random.choice([laser_texture1, laser_texture2, laser_texture3])
+		SpriteNode.__init__(self, img, **kwargs)
 		
 class shootingStar(SpriteNode):
 	def __init__(self, r=11, **kwargs):
@@ -68,7 +69,7 @@ class Game(Scene):
 		self.point = Point(parent=self)
 		self.point.position = (self.player.position.x,self.player.position.y-10)
 		self.add_child(self.point)
-		score_font = ('Futura', 40)
+		score_font = ('AvenirNext-Heavy', 40)
 		self.score_label = LabelNode('0', score_font, parent=self)
 		self.score_label.position = (self.size.w/2, self.size.h - 70)
 		self.score = 0
